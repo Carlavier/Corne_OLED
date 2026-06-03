@@ -21,6 +21,41 @@
             key-positions = <2 1>;
             layers = <0>;
         };
+
+        left_bracket {
+            bindings = <&kp LS(NUMBER_9)>;
+            key-positions = <15 16>;
+            layers = <0>;
+        };
+
+        right_bracket {
+            bindings = <&kp LS(NUMBER_0)>;
+            key-positions = <19 20>;
+            layers = <0>;
+        };
+
+        left_curly {
+            bindings = <&kp LS(LEFT_BRACKET)>;
+            key-positions = <15 14>;
+            layers = <0>;
+        };
+
+        right_curly {
+            bindings = <&kp LS(RIGHT_BRACKET)>;
+            key-positions = <20 21>;
+            layers = <0>;
+        };
+
+        left_square {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <13 14>;
+            layers = <0>;
+        };
+
+        right_square {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <21 22>;
+        };
     };
 
     macros {
