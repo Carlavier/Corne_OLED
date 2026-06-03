@@ -151,7 +151,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_release>,
-                <&kp LEFT_GUI &kp RIGHT_GUI &kp LCTRL &kp RIGHT_CONTROL &kp LEFT_ALT &kp RIGHT_ALT &kp LEFT_SHIFT &kp RIGHT_SHIFT>,
+                <&kp RIGHT_GUI &kp RIGHT_ALT>,
                 <&macro_tap>,
                 <&kp ESCAPE>;
 
