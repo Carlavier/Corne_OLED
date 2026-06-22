@@ -9,8 +9,13 @@
         segment-remap;
         com-invdir;
         
-        com-sequential;
-        com-alternative;
+        /* --- MANDATORY ZEPHYR 4.1 GEOMETRY PROPERTIES --- */
+        segment-offset = <0>;
+        page-offset = <0>;
+        display-offset = <0>;
+        multiplex-ratio = <31>; /* (Height - 1) forces correct 32-row canvas sizing */
+        
+        /* Omit 'com-sequential' completely to activate Alternative COM layout natively */
         
         prechargep = <0x22>;
     };
