@@ -135,6 +135,11 @@
             layers = <0 1>;
             require-prior-idle-ms = <1>;
         };
+
+        screen_capture_combo {
+            bindings = <&kp PRINTSCREEN>;
+            key-positions = <26 27 28>;
+        };
     };
 
     macros {
