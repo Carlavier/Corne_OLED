@@ -206,7 +206,7 @@
                 <&macro_release>,
                 <&kp RIGHT_GUI &kp RIGHT_ALT>,
                 <&macro_tap>,
-                <&kp ESCAPE>;
+                <&kp ESCAPE &kp F24>;
 
             label = "MASTER_ESC";
         };
