@@ -148,6 +148,55 @@
             layers = <3>;
             require-prior-idle-ms = <1>;
         };
+
+        ctrl_7 {
+            bindings = <&kp LC(N7)>;
+            key-positions = <2 3>;
+            require-prior-idle-ms = <1>;
+            layers = <3>;
+        };
+
+        ctrl_8 {
+            bindings = <&kp LC(N8)>;
+            key-positions = <3 4>;
+            require-prior-idle-ms = <1>;
+            layers = <3>;
+        };
+
+        ctrl_9 {
+            bindings = <&kp LC(N9)>;
+            key-positions = <4 5>;
+            require-prior-idle-ms = <1>;
+            layers = <3>;
+        };
+
+        win_6 {
+            bindings = <&kp LG(NUMBER_6)>;
+            key-positions = <13 14>;
+            require-prior-idle-ms = <1>;
+            layers = <3>;
+        };
+
+        win_7 {
+            bindings = <&kp LG(N7)>;
+            key-positions = <14 15>;
+            require-prior-idle-ms = <1>;
+            layers = <3>;
+        };
+
+        win_8 {
+            bindings = <&kp LG(N8)>;
+            key-positions = <15 16>;
+            require-prior-idle-ms = <1>;
+            layers = <3>;
+        };
+
+        win_9 {
+            bindings = <&kp LG(N9)>;
+            key-positions = <16 17>;
+            require-prior-idle-ms = <1>;
+            layers = <3>;
+        };
     };
 
     macros {
